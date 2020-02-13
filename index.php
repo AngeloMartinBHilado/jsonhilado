@@ -3,7 +3,7 @@
 $json = file_get_contents('https://jaseonhilado.herokuapp.com//json.php'); 
 
 $data = json_decode($json,true);
-$list = $data['bag'];
+$list = $data['store'];
 ?>
 <h1> PRODUCTS </h1>
 <?php
