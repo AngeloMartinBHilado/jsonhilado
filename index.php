@@ -12,7 +12,7 @@ foreach($list as $value){
     <ul>
         <h2><?php echo $value['brand'];?></h2>
         <li>description: <?php echo $value['description'];?></li>
-        <li>capacity: <?php echo $value['capacity'];?></li>
+        <li>Size: <?php echo $value['capacity'];?></li>
         <li>color: <?php echo $value['color'];?></li>
     </ul>
  
