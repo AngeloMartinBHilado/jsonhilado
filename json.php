@@ -1,6 +1,6 @@
 <?php 
 include 'config.php';
-include 'class.bag.php';
+include 'class.store.php';
 header('Content-Type: application/json');
 $store = new bag();
 $list=$store->get_store();
