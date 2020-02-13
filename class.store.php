@@ -10,7 +10,7 @@ class bag{
 		}
 	}
 	
-	public function get_bag(){
+	public function get_store(){
 		$sql = "SELECT * FROM tbl_store";
 		$result = mysqli_query($this->db,$sql);
 		while($row = mysqli_fetch_assoc($result)){
