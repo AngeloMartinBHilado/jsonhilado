@@ -11,7 +11,7 @@ class bag{
 	}
 	
 	public function get_bag(){
-		$sql = "SELECT * FROM tbl_bag";
+		$sql = "SELECT * FROM tbl_store";
 		$result = mysqli_query($this->db,$sql);
 		while($row = mysqli_fetch_assoc($result)){
 			$list[] = $row;
