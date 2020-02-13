@@ -2,9 +2,9 @@
 include 'config.php';
 include 'class.bag.php';
 header('Content-Type: application/json');
-$bag = new bag();
-$list=$bag->get_store();
-echo "{\"bag\":";
+$store = new bag();
+$list=$store->get_store();
+echo "{\"store\":";
 echo json_encode($list);
 echo "}";
 ?>
